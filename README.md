@@ -114,7 +114,7 @@ Aqui são listados algumas sugestões para você que quer ir além do desafio in
 
 * **Conteinerização**: Utilizar o docker para realizar a conteinerização da aplicação.
 
-* **Mapa de Equipamentos**: Exibir uma página em Razor com os equipamentos no Mapa utilizando o leaflet.
+* **Mapa de Equipamentos**: Exibir uma página em Razor com os equipamentos no Mapa utilizando a biblioteca javascript Leaflet.
 
 * **Histórico de estados**: Exibir uma página em Razor que liste o histórico de estados de um equipamento.
 
