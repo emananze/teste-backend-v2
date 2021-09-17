@@ -87,7 +87,7 @@ O histórico de estados por equipamento.
 * **date**: Data em que o equipamento declarou estar nesse estado.
 * **equipment_state_id**: Chave estrangeira, utilizada para referenciar qual é o estado que o equipamento estava nesse momento.
 
-### equipment_position_history.json
+### equipment_position_history
 O histórico de posições dos equipamentos.
 
 * **equipment_id**: Chave estrangeira, utilizada para referenciar de qual equipamento é essa posição.
