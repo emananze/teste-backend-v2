@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Entities.Models.EquipmentStateHistory>
+@{
+    <tabLe>
+        <thead>
+            <tr>
+                <td>Date</td>
+                <td>Equipment</td>
+                <td>EquipmentState</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var es in Model)
+            {
+                <tr>
+                    <td>@es.Date</td>
+                    <td>@es.Equipment.Name</td>
+                    <td>@es.EquipmentState.Name</td>
+                </tr>
+            }
+        </tbody>
+    </tabLe>
+}
